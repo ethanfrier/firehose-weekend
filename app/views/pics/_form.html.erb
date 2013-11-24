@@ -1,0 +1,18 @@
+
+	<%= simple_form_for @pic do |f| %>
+
+	<%= f.input :lesson %> 
+	<br/>
+
+	<%= f.input :image %> 
+	<br/>
+
+	<%= f.input :emotion, label: 'How did you feel?', placeholder: 'hopeless'%> 
+	<br/>
+
+	<%= f.input :learned, label: 'what did you learn?', placeholder: 'Marco and Ken will fix it'  %> 
+	<br/>
+	
+	<%= submit_tag "save", :class =>"btn btn-success btn-large"%> 
+
+	<% end %>

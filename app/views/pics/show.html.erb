@@ -7,15 +7,17 @@
 	<%= image_tag @pic.image %>
 
 	<h2>
-		I felt: <%= @pic.emotion %>
+		I felt:  <%= @pic.emotion %> 
 	</h2>
 
 	<h2>
 		I learned: <%= @pic.learned %>
 	</h2>
 
-	<%= link_to 'back', pics_path, :class => 'btn btn-info btn-large' %>
+	<%= link_to 'Back', pics_path, :class => 'btn btn-warning btn-large' %>
+	<%= link_to 'Edit', edit_pic_path(@pic), :class => 'btn btn-info btn-large' %>	
 	<%= link_to 'Delete', pic_path(@pic), :method => :delete, :class=>'btn btn-large btn-danger', :confirm => "are you sure youw want to delete?" %>
+
 
 
 </div>

@@ -49,6 +49,29 @@ label {
 	color: white;
 }
 
+.pic-frosty {
+	box-shadow: 2px -2px 2px 2px rgba(36,32,33,0.50);
+	background-color: rgba(36,32,33,0.70);
+	padding: 1%;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	width: 250px;
+	color: white;
+}
+
+.pic-frosty h1 {
+	font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: 24px;
+}
+
+.pic-frosty h2 {
+	font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+}
+
+
 body {
 	background: url('bg.jpg') no-repeat center center fixed; 
   	-webkit-background-size: cover;

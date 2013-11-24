@@ -71,6 +71,12 @@ label {
 	font-size: 18px;
 }
 
+.error {
+	color: red;
+	display:block;
+	font-weight: 600;
+	font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
+}
 
 body {
 	background: url('bg.jpg') no-repeat center center fixed; 

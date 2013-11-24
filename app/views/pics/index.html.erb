@@ -6,15 +6,14 @@
 				Lesson: <%= pic.lesson %> 
 			</h1>
 
-			<%= image_tag pic.image %>
+			<%= link_to pic_path(pic) do%>
+						<%= image_tag pic.image %>
+			<% end %>
 
-			<h2>
-				Emotion: <%= pic.emotion %>
-			</h2>
+			<h2> Emotion: <%= pic.emotion %> </h2>
 
-			<h2>
-				Learned: <%= pic.learned %>
-			</h2>
+			<h2> Learned: <%= pic.learned %> </h2>
+			
 		</div>
 
 	<% end %>

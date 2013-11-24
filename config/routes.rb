@@ -6,6 +6,8 @@ FirehoseApp::Application.routes.draw do
   root 'static_pages#index'
 
   resources :pics
+
+  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
